@@ -1,0 +1,30 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'dev.flutter.flutter-gradle-plugin'
+}
+android {
+    namespace 'com.example.cham_cong_nhan_vien'
+    compileSdk 36
+    // Match the NDK already installed in the configured Android SDK. Pinning this
+    // avoids Gradle trying to fetch the AGP default NDK through the broken sdkmanager.
+    ndkVersion '28.2.13676358'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    defaultConfig {
+        applicationId 'com.example.cham_cong_nhan_vien'
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
+flutter { source '../..' }

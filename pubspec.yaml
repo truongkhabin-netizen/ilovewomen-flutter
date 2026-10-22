@@ -1,0 +1,23 @@
+name: cham_cong_nhan_vien
+description: Ứng dụng chấm công cơ bản dành cho nhân viên.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  local_auth: ^2.3.0
+  geolocator: ^13.0.2
+  mobile_scanner: ^6.0.2
+  share_plus: ^10.1.2
+  qr_flutter: ^4.1.0
+  cupertino_icons: ^1.0.8
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true

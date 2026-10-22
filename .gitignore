@@ -1,0 +1,41 @@
+# Flutter / Dart generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+/_build_verify*/
+/_migrated_from_C/
+/_publish_meta_test/
+/_publish_flutter_meta/
+.pub-cache/
+.metadata
+**/.gradle/
+**/.kotlin/
+**/local.properties
+*.log
+*.mdf
+*.ldf
+*.bak
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.vs/
+*.iml
+Thumbs.db
+desktop.ini
+
+# .NET build outputs, local secrets, and runtime data
+**/bin/
+**/obj/
+**/App_Data/
+api/appsettings.json
+api/appsettings.Development.json
+api/appsettings.*.json
+!api/appsettings.example.json
+api/verify-build/
+api/_build_verify*/
+
+# Local conversation/export folders are not application source
+2026-10-22/

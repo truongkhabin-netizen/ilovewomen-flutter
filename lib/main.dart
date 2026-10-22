@@ -1030,7 +1030,7 @@ class _AuthPageState extends State<AuthPage> {
                                               Icons.access_time_filled,
                                               color: blue,
                                               size: 30)),
-                                      const Text('CHẤM CÔNG NHÂN VIÊN',
+                                      const Text('VoTruongKha',
                                           textAlign: TextAlign.center,
                                           style: TextStyle(
                                               color: blue,
@@ -1809,7 +1809,7 @@ class _AttendanceHomeState extends State<AttendanceHome> {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
-            title: const Text('Chấm công',
+            title: const Text('VoTruongKha',
                 style: TextStyle(fontWeight: FontWeight.w800)),
             actions: [
               IconButton(

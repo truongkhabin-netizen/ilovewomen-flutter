@@ -1,4 +1,4 @@
-package com.example.cham_cong_nhan_vien
+package com.votruongkha
 
 import android.nfc.NfcAdapter
 import android.nfc.NdefRecord

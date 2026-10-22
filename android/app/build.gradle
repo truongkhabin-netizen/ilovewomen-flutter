@@ -4,7 +4,7 @@ plugins {
     id 'dev.flutter.flutter-gradle-plugin'
 }
 android {
-    namespace 'com.example.cham_cong_nhan_vien'
+    namespace 'com.votruongkha'
     compileSdk 36
     // Match the NDK already installed in the configured Android SDK. Pinning this
     // avoids Gradle trying to fetch the AGP default NDK through the broken sdkmanager.
@@ -20,7 +20,7 @@ android {
     }
 
     defaultConfig {
-        applicationId 'com.example.cham_cong_nhan_vien'
+        applicationId 'com.votruongkha'
         minSdk 24
         targetSdk 35
         versionCode 1
